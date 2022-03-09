@@ -7,4 +7,4 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/home.html");
 });
 
-app.listen(4001, () => console.log("running on port 4001... lalalala"));
+app.listen(4001, () => console.log("running on port 4001"));
